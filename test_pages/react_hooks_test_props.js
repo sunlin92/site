@@ -1,5 +1,6 @@
 import projectConfig from '/site/pagic.config.js';
 import ReactHooksTest from './react_hooks_test_content.js';
+import Gitalk from '/site/_gitalk.js';
 export default {
     'prev': {
         "text": "Front matter test",
@@ -30,6 +31,16 @@ export default {
                 'LICENSE',
                 'dist'
             ],
+            gitalk: {
+                admin: [
+                    'sunlin92'
+                ],
+                clientID: '692a6b422e67b368cc70',
+                clientSecret: 'f80785fb814bc4a5d391b4dbbd02ae3dfbb6b853',
+                owner: 'sunlin92',
+                pagerDirection: 'last',
+                repo: 'site'
+            },
             github: 'https://github.com/sunlin92/site',
             include: undefined,
             nav: [
@@ -53,7 +64,8 @@ export default {
                 'layout',
                 'out',
                 'sidebar',
-                'prev_next'
+                'prev_next',
+                'gitalk'
             ],
             port: 8000,
             root: '/site/',
@@ -138,5 +150,8 @@ export default {
                 }
             ]
         }
-    ]
+    ],
+    'gitalk': React.createElement(Gitalk, { admin: [
+            'sunlin92'
+        ], clientID: "692a6b422e67b368cc70", clientSecret: "f80785fb814bc4a5d391b4dbbd02ae3dfbb6b853", id: "test_pages/react_hooks_test.html", owner: "sunlin92", pagerDirection: "last", repo: "site", title: "React hooks test" })
 };

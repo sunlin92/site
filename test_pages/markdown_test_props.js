@@ -1,4 +1,5 @@
 import projectConfig from '/site/pagic.config.js';
+import Gitalk from '/site/_gitalk.js';
 export default {
     'prev': {
         "link": "test_pages/index.html",
@@ -102,5 +103,8 @@ export default {
                 }
             ]
         }
-    ]
+    ],
+    'gitalk': React.createElement(Gitalk, { admin: [
+            'sunlin92'
+        ], clientID: "692a6b422e67b368cc70", clientSecret: "f80785fb814bc4a5d391b4dbbd02ae3dfbb6b853", id: "test_pages/markdown_test.html", owner: "sunlin92", pagerDirection: "last", repo: "site", title: "Markdown test" })
 };
