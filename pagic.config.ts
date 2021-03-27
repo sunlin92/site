@@ -3,7 +3,7 @@
 export default {
   srcDir: ".",
   exclude: ["LICENSE"],
-  root: "/site",
+  root: "/site/",
 
   theme: "docs",
   plugins: ["sidebar", "prev_next"],
