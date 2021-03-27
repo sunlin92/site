@@ -15,11 +15,11 @@ export default {
     nav: [
         {
             text: "Docs",
-            link: "introduction/index.html",
+            link: "/site/introduction/index.html",
         },
         {
             text: "About",
-            link: "about/index.html",
+            link: "/site/about/index.html",
             align: "right",
         },
     ],
