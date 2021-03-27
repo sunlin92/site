@@ -39,6 +39,7 @@ export default {
                 clientSecret: 'f80785fb814bc4a5d391b4dbbd02ae3dfbb6b853',
                 owner: 'sunlin92',
                 pagerDirection: 'last',
+                proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token',
                 repo: 'site'
             },
             github: 'https://github.com/sunlin92/site',
@@ -153,5 +154,5 @@ export default {
     ],
     'gitalk': React.createElement(Gitalk, { admin: [
             'sunlin92'
-        ], clientID: "692a6b422e67b368cc70", clientSecret: "f80785fb814bc4a5d391b4dbbd02ae3dfbb6b853", id: "test_pages/react_hooks_test.html", owner: "sunlin92", pagerDirection: "last", repo: "site", title: "React hooks test" })
+        ], clientID: "692a6b422e67b368cc70", clientSecret: "f80785fb814bc4a5d391b4dbbd02ae3dfbb6b853", id: "test_pages/react_hooks_test.html", owner: "sunlin92", pagerDirection: "last", proxy: "https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token", repo: "site", title: "React hooks test" })
 };

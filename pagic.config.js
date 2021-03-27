@@ -58,6 +58,7 @@ export default {
         owner: 'sunlin92',
         admin: ['sunlin92'],
         pagerDirection: 'last',
+        proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token',
     },
     port: 8000,
 };

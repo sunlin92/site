@@ -82,5 +82,5 @@ export default {
     ],
     'gitalk': React.createElement(Gitalk, { admin: [
             'sunlin92'
-        ], clientID: "692a6b422e67b368cc70", clientSecret: "f80785fb814bc4a5d391b4dbbd02ae3dfbb6b853", id: "test_pages/index.html", owner: "sunlin92", pagerDirection: "last", repo: "site", title: "Test pages" })
+        ], clientID: "692a6b422e67b368cc70", clientSecret: "f80785fb814bc4a5d391b4dbbd02ae3dfbb6b853", id: "test_pages/index.html", owner: "sunlin92", pagerDirection: "last", proxy: "https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token", repo: "site", title: "Test pages" })
 };
